@@ -1,0 +1,64 @@
+
+# Uygulama ekranının açıldığı kontrol edilir
+*"5" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elementi kontrol et
+* "2" saniye kadar bekle
+#Alısverise Basla Butonuna Tıklama Islemi Yapilir
+* "4" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "2" saniye kadar bekle
+#Alışveriş Sayfasının Acildigi Kontrol Edilir
+* "2" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/tvMarketName" li elementli kontrol et
+* "2" saniye kadar bekle
+#Kategoriler Butonuna Tıklanır
+* "2" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/nav_categories" kategoriye tıkla
+* "2" saniye kadar bekle
+#Kadın kategorisi Butonuna Tıklanır
+* "2" saniye kadar bekle
+* xpath"//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" kadın kategorisine tıkla
+* "2" saniye kadar bekle
+#Pantolon Kategorisi Butonuna tıklanır
+* "2" saniye kadar bekle
+* xpath"//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" pantolon kategorisine tıkla
+* "2" saniye kadar bekle
+#2 Kez Scroll Islemi Yapilir
+* "2" saniye kadar bekle
+* scroll et
+* "2" saniye kadar bekle
+* scroll et
+* "2" saniye kadar bekle
+#Rastgele Bir Urun Secilir
+* "2" saniye kadar bekle
+* Rastgele bir ürün seçme
+* "2" saniye kadar bekle
+#Urun Detay Kontrol Islemi Yapılır
+* "2" saniye kadar bekle
+*id"com.ozdilek.ozdilekteyim:id/tvSizeDesc" urun detay kontrolü
+* "2" saniye kadar bekle
+#Favorilere Ekleme İslemi Yapılır
+* "2" saniye kadar bekle
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddFav']" favoriye ekle
+* "2" saniye kadar bekle
+#Giris Kontrol Islemi Yapılır
+* "2" saniye kadar bekle
+*id"com.ozdilek.ozdilekteyim:id/cbRememberMe" giris  kontrolü
+* "2" saniye kadar bekle
+#Giris Ekranında E-posta ve Password Input Degerleri Girilir
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etEposta" id'li elemente "furkan.kartal@testinium.com" mail adresi girme
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" 'li elemente "12345" şifre girme
+* "2" saniye kadar bekle
+#2 kez geri tusuna basılır
+* "2" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "2" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "2" saniye kadar bekle
+#Rastgele Urun Secilip Sepete Ekleme Islemi Yapılır
+* "2" saniye kadar bekle
+* Rastgele bir ürün seçme
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" sepete ekleme yap
